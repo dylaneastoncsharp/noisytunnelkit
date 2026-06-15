@@ -1,4 +1,4 @@
-# error-boundary-f029a9
+# error-boundary-b9ccf5
 
 A Node.js error boundary utility.
 

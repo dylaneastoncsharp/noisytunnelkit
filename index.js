@@ -1,5 +1,5 @@
 'use strict';
-const CLI = 'error-boundary-f029a9';
+const CLI = 'error-boundary-b9ccf5';
 function parseArgs(argv) {
   const args = { _: [] };
   for (let i = 2; i < argv.length; i++) {
